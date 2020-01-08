@@ -1,0 +1,75 @@
+h1
+{
+    color: white;
+}
+.banner
+{
+    text-align: center;
+    background-image: url(fondluxe.jpg);
+    image-size: cover;
+    padding: 90px;
+}
+h2
+{
+    color: orange;
+}
+var btn = document.querySelector('input');
+var txt = document.querySelector('pu');
+
+btn.addEventListener('click',updateBrn);
+function updateBtn() {
+    if btn.value==='Paris'){
+        btn.value='Aller';
+        } else {
+            btn.value='paris';
+            txt.textContent = 'Voyager';
+}
+    }
+var btn = document.querySelector('input');
+var txt = document.querySelector('pu');
+
+btn.addEventListener('click',updateBrn);
+function updateBtn() {
+    if btn.value==='Londres'){
+        btn.value='Aller';
+        } else {
+            btn.value='Londres';
+            txt.textContent = 'Aller';
+}
+    }
+var btn = document.querySelector('input');
+var txt = document.querySelector('pu');
+
+btn.addEventListener('click',updateBrn);
+function updateBtn() {
+    if btn.value==='Shangai'){
+        btn.value='Aller';
+        } else {
+            btn.value='Shangai';
+            txt.textContent = 'Aller';
+}
+    }
+var btn = document.querySelector('input');
+var txt = document.querySelector('pu');
+
+btn.addEventListener('click',updateBrn);
+function updateBtn() {
+    if btn.value==='New York'){
+        btn.value='Aller';
+        } else {
+            btn.value='New York';
+            txt.textContent = 'Aller';
+}
+    }
+var btn = document.querySelector('input');
+var txt = document.querySelector('pu');
+
+btn.addEventListener('click',updateBrn);
+function updateBtn() {
+    if btn.value==='Réservation'){
+        btn.value='Réserver dans les plus beaux hotels du monde';
+        } else {
+            btn.value='Réservation';
+            txt.textContent = 'Aller';
+}
+    }
